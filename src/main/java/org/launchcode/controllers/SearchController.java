@@ -40,7 +40,7 @@ public class SearchController {
         model.addAttribute("columns", ListController.columnChoices);
 
 
-        model.addAttribute("searchJobs", searchJobs);
+        model.addAttribute("jobs", searchJobs);
 
         return "search";
     /* idk what to do. i built this to handle the search. do i need to make another handler to pass
